@@ -1,0 +1,36 @@
+# 🌲 General .gitignore for my personal repositories 🌲
+
+# ------------------------------------------
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.DSN_URL
+*.pem
+*.key
+
+# Node.js module folder
+/node_modules
+/jspm_packages/
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+/bun.lockb
+
+# Generated dist/build files
+/dist/
+/build/
+/out/
+/coverage/
+/temp/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+.vscode/settings.json
